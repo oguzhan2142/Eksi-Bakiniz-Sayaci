@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Bkz Sayacı</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Çıkış</string>
+
+    <string name="menu_home">Gündem</string>
+    <string name="menu_link_yapistirma">Link Yapıştırma</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_analyze_page">Bkz Analiz Sayfasi</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="deneme_yazisi">Link Yapistirin</string>
+    <string name="temizle">Lınk Alanını Temizle</string>
+    <string name="yap_t_r">Kopyalanan Linki Yapıştır</string>
+    <string name="analiz">Analize Başla</string>
+    <string name="ek_i_s_zl_k_bkz_sayac">Ekşi Sözlük Bkz Sayacı</string>
+    <string name="geli_tiren_o_uzhan_topal">Geliştiren Oğuzhan Topal</string>
+    <string name="siyaset">#siyaset</string>
+    <string name="spor">#spor</string>
+    <string name="ılıskıler">#ilışkıler</string>
+    <string name="seyehat">#seyehat</string>
+    <string name="muzik">#müzik</string>
+    <string name="tv">#tv</string>
+    <string name="bilim">#bilim</string>
+    <string name="edebiyat">#edebiyat</string>
+    <string name="egitim">#eğitim</string>
+    <string name="ekonomi">#ekonomi</string>
+    <string name="basliklar">Başlıklar</string>
+</resources>

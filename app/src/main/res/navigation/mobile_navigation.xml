@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/gundem"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_spor"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/spor"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/spor"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_iliskiler"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/ılıskıler"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/ili%C5%9Fkiler"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_siyaset"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/siyaset"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/siyaset"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_seyehat"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/seyehat"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/seyahat"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_muzik"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/muzik"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/m%C3%BCzik"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tv"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/tv"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/tv"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_bilim"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/bilim"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/bilim"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_edebiyat"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/edebiyat"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/edebiyat"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_egitim"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/egitim"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/e%C4%9Fitim"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ekonomi"
+        android:name="com.example.bkzsayac.ui.home.HomeFragment"
+        android:label="@string/ekonomi"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="link"
+            android:defaultValue="https://eksisozluk.com/basliklar/kanal/ekonomi"
+            app:argType="string" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_link_yapistirma"
+        android:name="com.example.bkzsayac.ui.link.LinkFragment"
+        android:label="@string/menu_link_yapistirma"
+        tools:layout="@layout/fragment_gallery" />
+
+
+</navigation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/news"
+            android:title="@string/menu_home"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nav_link_yapistirma"
+            android:icon="@drawable/url"
+            android:title="@string/menu_link_yapistirma" />
+
+    </group>
+
+    <item android:title="@string/basliklar">
+        <menu>
+            <group
+                android:id="@+id/menu_bot"
+                android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/nav_spor"
+                    android:title="@string/spor" />
+
+                <item
+                    android:id="@+id/nav_iliskiler"
+                    android:title="@string/ılıskıler" />
+                <item
+                    android:id="@+id/nav_siyaset"
+                    android:title="@string/siyaset" />
+                <item
+                    android:id="@+id/nav_seyehat"
+                    android:title="@string/seyehat" />
+                <item
+                    android:id="@+id/nav_muzik"
+                    android:title="@string/muzik" />
+
+                <item
+                    android:id="@+id/nav_tv"
+                    android:title="@string/tv" />
+
+                <item
+                    android:id="@+id/nav_bilim"
+                    android:title="@string/bilim" />
+
+                <item
+                    android:id="@+id/nav_edebiyat"
+                    android:title="@string/edebiyat" />
+                <item
+                    android:id="@+id/nav_egitim"
+                    android:title="@string/egitim" />
+
+                <item
+                    android:id="@+id/nav_ekonomi"
+                    android:title="@string/ekonomi" />
+
+            </group>
+        </menu>
+    </item>
+</menu>
