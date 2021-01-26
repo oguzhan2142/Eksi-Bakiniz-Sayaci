@@ -8,3 +8,8 @@
 </ul>
 
 ### Ekran Görüntüleri
+
+<img src="https://github.com/oguzhan2142/Eksi-Bakiniz-Sayaci/blob/master/screenshots/1.jpeg" alt="Search Screen" width="300"/>
+<img src="https://github.com/oguzhan2142/Eksi-Bakiniz-Sayaci/blob/master/screenshots/2.jpeg" alt="Search Screen" width="300"/>
+<img src="https://github.com/oguzhan2142/Eksi-Bakiniz-Sayaci/blob/master/screenshots/3.jpeg" alt="Search Screen" width="300"/>
+
